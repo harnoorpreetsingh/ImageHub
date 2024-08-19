@@ -24,9 +24,9 @@ const PORT = process.env.PORT;
 app.use(express.json()); //to take json value from user
 app.use(cookieParser()); //to take json value from user
 
-app.get("/", (req, res)=>{
-    res.send("Hello, World!")
-})
+// app.get("/", (req, res)=>{
+//     res.send("Hello, World!")
+// })
 
 //importing routes
 
